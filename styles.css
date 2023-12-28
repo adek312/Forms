@@ -71,7 +71,25 @@ body{
 }
 
 .form{
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
     padding-left: 50px;
     margin-bottom: 50px;
+    font-size: 0.8em;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput input{
+    width: 10rem;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    gap: 50px;
 }
