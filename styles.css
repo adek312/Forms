@@ -57,10 +57,21 @@ body{
 .right{
     background-color: #F9FAFB;
     width: 600px;
+    height: 600px;
     display: flex;
     flex-direction: column;
 }
 
+.upper{
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
 .form{
     background-color: #FFFFFF;
+    padding-left: 50px;
+    margin-bottom: 50px;
 }
