@@ -17,12 +17,41 @@ body{
     height: 100vh;
 }
 
-.logo{
-    font-family: "Norse-Bold";
+.background{
+    position: relative;
 }
 
 .background img{
     width: 400px;
+}
+
+.logo{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.logo{
+    font-family: "Norse-Bold";
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.logo img{
+    width: 75px;
+    height: 100px;
+}
+
+.dark-bg{
+    background-color: black;
+    opacity: 0.45;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    z-index: 0;
 }
 
 .right{
