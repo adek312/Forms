@@ -35,7 +35,7 @@ body{
     color: white;
     display: flex;
     align-items: center;
-    font-size: 50px;
+    font-size: 70px;
     z-index: 1;
 }
 
@@ -75,7 +75,7 @@ body{
     flex-direction: column;
     background-color: #FFFFFF;
     padding-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: 0.8em;
 }
 
@@ -92,4 +92,41 @@ body{
 form{
     display: flex;
     gap: 50px;
+}
+
+.lower{
+    margin-left: 50px;
+}
+
+.createAccount{
+    margin-bottom: 15px;
+}
+
+.createAccount button{
+    background: #596D48;
+    color: white;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #F9FAFB;
+}
+
+.logIn button{
+    background: none;
+    border: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+.logIn button:hover,
+.createAccount button:hover{
+    cursor: pointer;
+}
+
+.createAccount button:active{
+    background-color: #6A7E59;
+}
+
+.logIn button:active{
+    color: #6A7E59;
 }
