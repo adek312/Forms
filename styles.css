@@ -77,6 +77,9 @@ body{
     padding-left: 50px;
     margin-bottom: 25px;
     font-size: 0.8em;
+    -webkit-box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
 }
 
 .formInput{
@@ -87,6 +90,13 @@ body{
 .formInput input{
     width: 10rem;
     margin-bottom: 10px;
+}
+
+.formInput input:focus{
+    border-color: blue;
+    -webkit-box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
 }
 
 form{
