@@ -92,6 +92,20 @@ body{
     margin-bottom: 10px;
 }
 
+.formInput input:last-child{
+    margin-bottom: 0;
+}
+
+.errorMessage{
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: red;
+}
+
+.hidden{
+    text-indent: -9999px;
+}
+
 .formInput input:focus{
     border-color: blue;
     -webkit-box-shadow: 8px 8px 33px -20px rgba(66, 68, 90, 1);
